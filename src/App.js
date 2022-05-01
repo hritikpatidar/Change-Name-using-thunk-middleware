@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 
-import { MyAsyncAction } from '.';
 import './App.css';
+import { MyAsyncAction } from './Async action/AsyncAction';
 
 function App() {
   let state = useSelector(store=>store); //store is a function
